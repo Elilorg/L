@@ -19,18 +19,6 @@ div.cover{
     background: url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;   
 }
 
-/*.img_cover{
-    display: block;
-    position: relative;
-    height: 100px;
-    left: 50%;
-    margin-top: 0;
-    margin-left: -50px;
-    top : 50px;
-    right :50% ;
-    margin-bottom: 60px;
-    
-}*/
 div.titre{  
     display: block;
     position: relative;
@@ -227,5 +215,6 @@ div.texte_avec_barre{
     padding-left: 8px;
     padding-top: 0%;
 }
+
 
 
