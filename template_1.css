@@ -130,6 +130,7 @@ span.highlight{
 
 .col40{
     width: 40%;
+    display: inline-block;
 }
 .col60{
     width: 60%;
@@ -154,7 +155,7 @@ a.text-ligne-verticale{
     display: block;
     margin-top: 8px;
 
-    
+   
 }
 div.barre-verticale{
     width: 4px;
@@ -163,7 +164,14 @@ div.barre-verticale{
     margin-right: 8px;
     margin-left: 8px;
 }
-img.images-projets{
+div.barre-verticale2{
+    width: 4px;
+    height: 70px;
+    background-color: var(--color1);
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.images-projets{
     width : 100%;
 }
 div.frame{
@@ -176,7 +184,25 @@ div.frame{
     display: inline-block ;
 }
 
-
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+.responsive-iframe {
+position:  absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+border: none;
+}
+  
+  
 
 
 
@@ -201,5 +227,8 @@ div.texte_avec_barre{
     padding-left: 8px;
     padding-top: 0%;
 }
+
+
+
 
 
